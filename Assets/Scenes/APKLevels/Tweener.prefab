@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5138182102233477733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5138182102233477734}
+  - component: {fileID: 5138182102233477735}
+  - component: {fileID: 5138182102233477728}
+  m_Layer: 0
+  m_Name: Tweener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5138182102233477734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5138182102233477733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5138182102233477735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5138182102233477733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c0f47e789239b429c1413019d9d773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowRect:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  moveInTime: 0.2
+  arrowFadeInTime: 3
+  floatingGround:
+  - {fileID: 0}
+  floatingPointer:
+  - {fileID: 0}
+  trigPos:
+  - {fileID: 0}
+  player: {fileID: 0}
+  floatingIn: 1
+  floatingOut: 0.5
+  rotationFactor: 20
+  verticleMovementFactor: 0.8
+  threshold: 5
+  fogRenderer:
+  - {fileID: 0}
+  - {fileID: 0}
+  fadeDuration: 2
+  cloudMats:
+  - {fileID: 2100000, guid: dcbb582e19b49eb4fab493a2bbd44cb4, type: 2}
+  - {fileID: 2100000, guid: 8a37c40d21f3e4743a1b12af5af83382, type: 2}
+  finalScale: 27
+  fadeInTime: 0.5
+  fadeOutTime: 1
+  buttonPointer:
+  - {fileID: 0}
+  - {fileID: 0}
+  moveFactor: 0.4
+  fadeFactor: 1.2
+  blinkFactor: 0.8
+  mainImage: {fileID: 0}
+  words:
+  - {fileID: 21300000, guid: f4ad22a0d6a243f4fabd56b913b3a7b6, type: 3}
+  - {fileID: 21300000, guid: c157698b216a05048b989abfe25abae7, type: 3}
+  - {fileID: 21300000, guid: 6d4eaae8c34f8324889d96cc2054896a, type: 3}
+  - {fileID: 21300000, guid: 81418388f10631744b54f5ac8f2eba0c, type: 3}
+  - {fileID: 21300000, guid: 5d79e8c081b45594d896d6b21816ae17, type: 3}
+  - {fileID: 21300000, guid: 8462306cddb06ae4da0a7e49e1486e36, type: 3}
+  rectTweenTime: 0.65
+  maxRotationFactor: 12
+  scaleValue: 1
+--- !u!114 &5138182102233477728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5138182102233477733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cee40301ef7ee94cab8acf642c1e950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blinkTime: 0.4
+  outlineWidthFactor: 1.5
+  trailPrefab: {fileID: 125638, guid: 36c40fe19a4447d468678ecd395846df, type: 3}
+  postionAdjustment: {x: 0, y: 1.104, z: 0}
+  globalOutlineWidth: 3.5
+  canOutline: 0
+  levelWisePolarised:
+  - polarizedObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+  - polarizedObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
